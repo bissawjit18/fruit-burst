@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fruit burst</title>
+    <!-- Tailwind, DaisyUI, css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome icon -->
+    <script src="https://kit.fontawesome.com/c25e1ed245.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            margin: 0 auto;
+            max-width: 1224px;
+            
+        }
+
+        body{
+            margin: 15px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="w-full">
+        <nav class="w-full">
+            <div class="navbar bg-base-100 rounded-full shadow-sm ">
+                <div class="navbar-start">
+                    <!-- small device -->
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl font-bold select-none">Fruit Burst</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 font-semibold">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end pr-5">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                </div>
+            </div>
+        </nav>
+        <!-- banner section -->
+        <div>
+            <div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="w-full ">
+                <div class="py-4">
+                    <h2 class="text-3xl font-semibold pb-3">Deal of the day</h2>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>                        Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="w-full grid grid-cols-4 gap-2 py-5">
+                    <!-- item 1 -->
+                    <div class="hover:shadow-xl hover:bg-lime-50 cursor-pointer w-55 flex flex-col items-center border-2 border-gray-400 rounded-md px-2 py-4">
+                        <div><img src="images/fruit6.png" alt=""></div>
+                        <p class="font-medium py-3 text-xl">12.90$-18.85$</p>
+                        <h class="w-full border-b-2 border-gray-400"></h>
+                        <h2 class="pt-2 text-xl"><strong>Apples</strong></h2>
+                        <div class="rating py-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <p class="text-orange-600">Details</p>
+                    </div>
+                    <!-- item 2 -->
+                    <div class="hover:shadow-xl hover:bg-lime-50 cursor-pointer w-55 flex flex-col items-center border-2 border-gray-400 rounded-md px-2 py-4">
+                        <div><img src="images/fruit7.png" alt=""></div>
+                        <p class="font-medium py-3 text-xl">12.90$-18.85$</p>
+                        <h class="w-full border-b-2 border-gray-400"></h>
+                        <h2 class="pt-2 text-xl"><strong>Orange</strong></h2>
+                        <div class="rating py-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <p class="text-orange-600">Details</p>
+                    </div>
+                    <!-- item 3 -->
+                    <div class="hover:shadow-xl hover:bg-lime-50 cursor-pointer w-55 flex flex-col items-center border-2 border-gray-400 rounded-md px-2 py-4">
+                        <div><img src="images/fruit8.png" alt=""></div>
+                        <p class="font-medium py-3 text-xl">12.90$-18.85$</p>
+                        <h class="w-full border-b-2 border-gray-400"></h>
+                        <h2 class="pt-2 text-xl"><strong>Red Dragon</strong></h2>
+                        <div class="rating py-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <p class="text-orange-600">Details</p>
+                    </div>
+                    <!-- item 4 -->
+                    <div class="hover:shadow-xl hover:bg-lime-200 cursor-pointer w-55 flex flex-col items-center border-2 border-gray-400 rounded-md px-2 py-4">
+                        <div><img src="images/fruit9.png" alt=""></div>
+                        <p class="font-medium py-3 text-xl">12.90$-18.85$</p>
+                        <h class="w-full border-b-2 border-gray-400"></h>
+                        <h2 class="pt-2 text-xl"><strong>Banana</strong></h2>
+                        <div class="rating py-3">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="1 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="2 star" checked="checked" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="3 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="4 star" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                aria-label="5 star" />
+                        </div>
+                        <p class="text-orange-600">Details</p>
+                    </div>
+
+                </div>
+                <div class="w-full text-center">
+                    <button class="text-lg bg-orange-600 px-3 py-1 font-medium rounded-full text-white hover:bg-orange-500 cursor-pointer">Shop All</button>
+                </div>
+            </div>
+        </section> <br><br>
+
+        <!-- Meet Your Team -->
+         <section class="w-full">
+            <div class="bg-[url(images/team.png)] bg-cover w-full text-white lg:py-22 sm:py-9 flex items-center justify-center">
+               <div>
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-4xl font-bold">Meet the team section</h2>
+                    <p  class="text-center text-gray-200">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div><br><br>
+                <!-- Team Card Container -->
+                <div class="w-full grid grid-cols-4 lg:gap-24">
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="images/member1.png" alt="">
+                        <h2 class="font-bold pt-4 text-xl">Awlad Hossain</h2>
+                        <p class="font-medium text-gray-200 py-1">Fruits Expart</p>
+                        <div class="flex gap-3 text-sm py-2">
+                            <i class="fa-brands fa-facebook-f bg-orange-700 py-2 px-3 rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-orange-700 p-2 rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-orange-700 p-2 rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="images/member2.png" alt="">
+                        <h2 class="font-bold pt-4 text-xl">Awlad Hossain</h2>
+                        <p class="font-medium text-gray-200 py-1">Fruits Expart</p>
+                        <div class="flex gap-3 text-sm py-2">
+                            <i class="fa-brands fa-facebook-f bg-orange-700 py-2 px-3 rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-orange-700 p-2 rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-orange-700 p-2 rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="images/member3.png" alt="">
+                        <h2 class="font-bold pt-4 text-xl">Awlad Hossain</h2>
+                        <p class="font-medium text-gray-200 py-1">Fruits Expart</p>
+                        <div class="flex gap-3 text-sm py-2">
+                            <i class="fa-brands fa-facebook-f bg-orange-700 py-2 px-3 rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-orange-700 p-2 rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-orange-700 p-2 rounded-full"></i>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <img src="images/member4.png" alt="">
+                        <h2 class="font-bold pt-4 text-xl">Awlad Hossain</h2>
+                        <p class="font-medium text-gray-200 py-1">Fruits Expart</p>
+                        <div class="flex gap-3 text-sm py-2">
+                            </p><i class="fa-brands fa-facebook-f bg-orange-700 py-2 px-3 rounded-full "></i>
+                            <i class="fa-brands fa-twitter bg-orange-700 p-2 rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-orange-700 p-2 rounded-full"></i>
+                        </div>
+                    </div>
+                </div>
+               </div>
+            </div>
+         </section> <br> <br>
+
+         <!-- Why Choose Us -->
+          <section class="w-full">
+            <div class="w-full">
+                <div class="text-center">
+                    <h2 class="font-bold text-3xl ">Why Choose Us</h2>
+                    <p class="text-sm font-medium py-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <div class="w-full flex py-6">
+
+                    <!-- left content -->
+                    <div class="w-full grid grid-rows-3">
+                        <div class="flex gap-3">
+                            <div class=""><i class="fa-solid fa-users text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-medium">Dedicated Team</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-3">
+                            <div class=""><i class="fa-solid fa-heart-circle-check text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-medium">Fresh is Best</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <div class=""><i class="fa-solid fa-gift text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                            <div>
+                                <h2 class="text-2xl font-medium">Gift Certificates</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- middle content -->
+                    <div class="w-full ">
+                        <img src="images/whychoose1.png" alt="">
+                    </div>
+
+                    <!-- right content -->
+                    <div class="w-full grid grid-rows-3 justify-items-end text-right">
+                        <div class="flex gap-3">
+                            <div>
+                                <h2 class="text-2xl font-medium">Dedicated Team</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                            <div class=""><i class="fa-solid fa-users text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-3">
+                            <div>
+                                <h2 class="text-2xl font-medium">Fresh is Best</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                            <div class=""><i class="fa-solid fa-heart-circle-check text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <div>
+                                <h2 class="text-2xl font-medium">Gift Certificates</h2>
+                                <div class="font-extrabold">________________</div>
+                                <p class="text-sm">Professional employees are there for you to <br> pick
+                                    the most amazing and fresh fruits.</p>
+                            </div>
+                            <div class=""><i class="fa-solid fa-gift text-3xl py-4 px-3 bg-gray-200 rounded-full"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+          </section>
+    </main>
+</body>
+
+</html>
